@@ -292,23 +292,23 @@ const UI = {
   },
 };
 
-gnd.sprite.src = "caixa1.jpg";
-bg.sprite.src = "megamind1.jpg";
-pipe.top.sprite.src = "jimmy.jpg";
-pipe.bot.sprite.src = "jimmy.jpg";
-UI.gameOver.sprite.src = "go.png";
-UI.getReady.sprite.src = "getready.png";
-UI.tap[0].sprite.src = "t0.png";
-UI.tap[1].sprite.src = "t1.png";
-bird.animations[0].sprite.src = "deiv.png";
-bird.animations[1].sprite.src = "deiv.png";
-bird.animations[2].sprite.src = "deiv.png";
-bird.animations[3].sprite.src = "deiv.png";
-SFX.start.src = "start.wav";
-SFX.flap.src = "flap.wav";
-SFX.score.src = "score.wav";
-SFX.hit.src = "hit.wav";
-SFX.die.src = "die.wav";
+gnd.sprite.src = "/img/caixa1.jpg";
+bg.sprite.src = "/img/megamind1.jpg";
+pipe.top.sprite.src = "/img/jimmy.jpg";
+pipe.bot.sprite.src = "/img/jimmy.jpg";
+UI.gameOver.sprite.src = "/img/go.png";
+UI.getReady.sprite.src = "/img/getready.png";
+UI.tap[0].sprite.src = "/img/t0.png";
+UI.tap[1].sprite.src = "/img/t1.png";
+bird.animations[0].sprite.src = "/img/deiv.png";
+bird.animations[1].sprite.src = "/img/deiv.png";
+bird.animations[2].sprite.src = "/img/deiv.png";
+bird.animations[3].sprite.src = "/img/deiv.png";
+SFX.start.src = "/sfx/start.wav";
+SFX.flap.src = "/sfx/flap.wav";
+SFX.score.src = "/sfx/score.wav";
+SFX.hit.src = "/sfx/hit.wav";
+SFX.die.src = "/sfx/die.wav";
 
 function gameLoop() {
   update();
